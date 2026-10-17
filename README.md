@@ -1,6 +1,6 @@
-# MH3U Damage Multiplier
+# Monster Hunter 3 Ultimate (MH3U) Damage Multiplier for Cemu
 
-A Cemu graphic pack for **Monster Hunter 3 Ultimate** that multiplies the damage monsters take. It's meant for playing multiplayer-scaled quests solo, without the hunt taking four times as long.
+A Cemu graphic pack for **Monster Hunter 3 Ultimate** (MH3U, also called Monster Hunter Tri Ultimate) on the Wii U emulator. It multiplies the damage monsters take, so you can play multiplayer-scaled quests solo, such as the Port Tanzia quests, without the hunt taking four times as long.
 
 It scales monster HP loss, flinches and part damage together, so a 2.5× hunt plays like one with more hunters. Damage to your hunter is not changed.
 
