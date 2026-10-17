@@ -87,3 +87,7 @@ Memory breakpoints only trigger with the game profile's CPU mode set to **Single
 ### Porting to other versions
 
 On another build, the addresses and the `moduleMatches` checksum will be different. Look for the loop that sums `lha rX, 0x8ec(rY)` over 8 parts and passes the negated total to the HP-add function, then apply the same hook there.
+
+## License
+
+[MIT](LICENSE)
