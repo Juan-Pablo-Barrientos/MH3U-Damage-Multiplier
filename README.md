@@ -48,7 +48,19 @@ Applying patch group 'MH3U_DamageMultiplier_US_v32'
 | Damage to your hunter | No |
 | A separate HP drain, likely poison or other status damage | No |
 
-Tested on Barroth at 2.5×. Each hit came out as predicted (4 → 10, 5 → 13, 7 → 18, 8 → 20), and damage to the hunter was unchanged. Whether flinches and part breaks come sooner hasn't been measured yet.
+Large and small monsters both go through the patched step: every monster type uses the same shared update code.
+
+Tested at 2.5×:
+
+| Monster | Type | Result |
+|---|---|---|
+| Barroth | Large | Each hit came out as predicted (4 → 10, 5 → 13, 7 → 18, 8 → 20) |
+| Royal Ludroth | Large | 10 of 10 hits scaled |
+| Ludroth, Kelbi | Small | 5 of 5 hits scaled |
+
+How to check a hit without a 1× run: at 2.5×, every hit ends in 0, 3, 5 or 8 (an even hit × 2.5 ends in 0 or 5, and an odd hit × 2.5 rounds up to a number ending in 3 or 8). A killing hit only takes the HP that was left, so it doesn't count.
+
+Damage to the hunter was unchanged. Whether flinches and part breaks come sooner hasn't been measured yet.
 
 ## How it works
 
